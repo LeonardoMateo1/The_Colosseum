@@ -1,0 +1,27 @@
+.home_header {
+    background-color:#393f4d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #d4d4dc;
+}
+
+img {
+    width: auto;
+    height: 5rem;
+}
+
+.sig_log {
+    display: flex;
+    gap: 3px;
+    margin-right: 5rem;
+}
+
+.link {
+    text-decoration: none;
+    color: #d4d4dc;
+}
+
+.link:hover {
+    color: black;
+}
