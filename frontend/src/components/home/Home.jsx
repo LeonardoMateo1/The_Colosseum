@@ -20,12 +20,18 @@ const Home = () => {
           </div>
           <div className="sig_log">
             <div className="log_left">
-              <Link className='link' to="/Login">Login /</Link>
+              <Link className='link' to="/Login">Login </Link>
             </div>
+            <p>/</p>
             <div className="sig_right">
               <Link className='link' to="/Sign_Up">Sign Up</Link>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="home_body_container">
+        <div className="home_top_body">
+          <h1>Welcome to the Court</h1>
         </div>
       </div>
     </div>
