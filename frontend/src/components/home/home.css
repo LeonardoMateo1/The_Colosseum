@@ -1,14 +1,46 @@
 .home_header {
-    background-color:#393f4d;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: #d4d4dc;
 }
 
-img {
+.home_middle {
+    display: flex;
+    gap: 1rem;
+}
+
+.search_bar {
+    display: flex;
+    gap: .25rem;
+    background-color: #33353c;
+    border-radius: 60px;
+}
+
+.search_bar > a {
+    color: #1d1e22;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    width: 15rem;
+    height: 1.5rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.img {
     width: auto;
     height: 5rem;
+}
+
+.header_right {
+    display: flex;
+    gap: 3rem;
 }
 
 .sig_log {
@@ -23,5 +55,10 @@ img {
 }
 
 .link:hover {
-    color: black;
+    color: #33353c;
 }
+
+body {
+    background-color: #1d1e22;
+}
+
