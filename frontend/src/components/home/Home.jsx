@@ -8,7 +8,7 @@ import {AiOutlineSearch} from "react-icons/ai"
 const Home = () => {
   return (
     <div>
-      <div className="home_header">
+      <div className="header">
         <img className='img' src={Logo} alt="" />
         <div className="header_right">
           <Link className='link' to=''>Players</Link>
